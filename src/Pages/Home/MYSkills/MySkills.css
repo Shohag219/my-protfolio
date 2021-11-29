@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html {
+  width: 95%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 90%;
+  background-color: #2196f3;
+}
+.js {
+  width: 90%;
+  background-color: #f44336;
+}
+.react {
+  width: 90%;
+  background-color: #eb858d;
+}
+.bootstrap {
+  width: 95%;
+  background-color: #8f86e6;
+}
+.materialUI {
+  width: 95%;
+  background-color: #56d8c6;
+}
