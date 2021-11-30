@@ -215,6 +215,12 @@ export default function Navigation(props) {
                     <Button color="inherit">Contact</Button>
                   </a>
                   <a
+                    style={{ textDecoration: "none", color: "white" }}
+                    href="#blog"
+                  >
+                    <Button color="inherit">Blogs</Button>
+                  </a>
+                  <a
                     href={PDF}
                     download="Resume of mahmudul-resume"
                     target="_blank"
