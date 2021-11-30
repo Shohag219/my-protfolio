@@ -28,7 +28,7 @@ const MyProjects = () => {
             fontFamily: "Ubuntu",
           }}
         >
-          My Resent Projects
+          My Projects
         </Typography>
       </Box>
       <Swiper
@@ -51,7 +51,66 @@ const MyProjects = () => {
       >
         <SwiperSlide>
           <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/SwtGj3b/project1.png" alt="" />
+            <img src="https://i.ibb.co/F8LSsXs/best-berbar-top.png" alt="" />
+            <Box sx={{ pt: 3 }}>
+              <Button
+                size="small"
+                sx={{ mx: 1, borderRadius: "52px", cursor: "default" }}
+                variant="outlined"
+                color="error"
+              >
+                HTML
+              </Button>
+              <Button
+                size="small"
+                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
+                variant="outlined"
+                color="info"
+              >
+                CSS
+              </Button>
+            </Box>
+            <Typography variant="h5" sx={{ m: 2 }}>
+              Best Berbar
+            </Typography>
+            <Box>
+              <a
+                target="_blank"
+                href="https://i.ibb.co/1LYprXZ/best-berbar-bottom.png"
+                rel="noReferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{ ml: 2, borderRadius: "52px" }}
+                  variant="contained"
+                  color="warning"
+                >
+                  Live Site
+                </Button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/Shohag219/barber-shop"
+                rel="noReferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{ m: 1, borderRadius: "52px" }}
+                  variant="contained"
+                  color="primary"
+                >
+                  Code
+                </Button>
+              </a>
+            </Box>
+          </Card>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
+            <img
+              src="https://i.ibb.co/dPt3rfN/food-Network-top.png[/img][/url]"
+              alt=""
+            />
             <Box sx={{ pt: 3 }}>
               <Button
                 size="small"
@@ -76,7 +135,7 @@ const MyProjects = () => {
             <Box>
               <a
                 target="_blank"
-                href="https://saddaul-siam.github.io/food-network/"
+                href="https://cranky-kare-e6a3da.netlify.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -90,7 +149,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/food-network"
+                href="https://github.com/Shohag219/food-network"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -107,7 +166,7 @@ const MyProjects = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/8PhD1T3/project2.png" alt="" />
+            <img src="https://i.ibb.co/MSDdhL9/honda-top.png" alt="" />
             <Box sx={{ pt: 3 }}>
               <Button
                 size="small"
@@ -140,7 +199,7 @@ const MyProjects = () => {
             <Box>
               <a
                 target="_blank"
-                href="https://honda-cbr-24.netlify.app/"
+                href="https://honda-cbr-main-projects.netlify.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -154,7 +213,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/honda-cbr"
+                href="https://github.com/Shohag219/honda-cbr"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -171,7 +230,10 @@ const MyProjects = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/5ThXVCY/Untitled-2.png" alt="" />
+            <img
+              src="https://i.ibb.co/Qn1sk01/Football-top.png[/img][/url]"
+              alt=""
+            />
             <Box sx={{ pt: 3 }}>
               <Button
                 size="small"
@@ -199,12 +261,12 @@ const MyProjects = () => {
               </Button>
             </Box>
             <Typography variant="h5" sx={{ m: 2 }}>
-              Responsive Football Website
+              Football Website
             </Typography>
             <Box>
               <a
                 target="_blank"
-                href="https://saddaul-siam.github.io/responsive-football/"
+                href="https://shohag219.github.io/football-club-assaingment-2/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -218,135 +280,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/responsive-football"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="primary"
-                >
-                  Code
-                </Button>
-              </a>
-            </Box>
-          </Card>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/WzK9HqM/project5.png" alt="" />
-            <Box sx={{ pt: 3 }}>
-              <Button
-                size="small"
-                sx={{ mx: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="error"
-              >
-                HTML
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="info"
-              >
-                CSS
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="success"
-              >
-                Bootstrap
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="success"
-              >
-                JavaScript
-              </Button>
-            </Box>
-            <Typography variant="h5" sx={{ m: 2 }}>
-              Siam Store (e-commerce Website)
-            </Typography>
-            <Box>
-              <a
-                target="_blank"
-                href="https://siam-store.netlify.app/"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ ml: 2, borderRadius: "52px" }}
-                  variant="contained"
-                  color="warning"
-                >
-                  Live Site
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/siam-store"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="primary"
-                >
-                  Code
-                </Button>
-              </a>
-            </Box>
-          </Card>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/XSN7cJz/project8.png" alt="" />
-            <Box sx={{ pt: 3 }}>
-              <Button
-                size="small"
-                sx={{ mx: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="error"
-              >
-                React
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="info"
-              >
-                Bootstrap
-              </Button>
-            </Box>
-            <Typography variant="h5" sx={{ m: 2 }}>
-              Easy School (educational Website)
-            </Typography>
-            <Box>
-              <a
-                target="_blank"
-                href="https://online-easy-school.netlify.app/"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ ml: 2, borderRadius: "52px" }}
-                  variant="contained"
-                  color="warning"
-                >
-                  Live Site
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/Educational-services"
+                href="https://github.com/Shohag219/football-club-assaingment-2"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -391,12 +325,12 @@ const MyProjects = () => {
               </Button>
             </Box>
             <Typography variant="h5" sx={{ m: 2 }}>
-              Pro medical (healthcare-website.)
+              Medilab Doctors
             </Typography>
             <Box>
               <a
                 target="_blank"
-                href="https://pro-medical-24.web.app/"
+                href="https://simple-ema-jhon-81a43.web.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -410,7 +344,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/Pro-Medical"
+                href="https://github.com/Shohag219/health-care-website"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -427,7 +361,10 @@ const MyProjects = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/ChJDNkv/project9.png" alt="" />
+            <img
+              src="https://i.ibb.co/D7YmwBH/resort-top.png[/img][/url]"
+              alt=""
+            />
             <Box sx={{ pt: 3 }}>
               <Button
                 size="small"
@@ -479,12 +416,12 @@ const MyProjects = () => {
               </Button>
             </Box>
             <Typography variant="h5" sx={{ m: 2 }}>
-              Tour Planners (Tourism Website)
+              Resort
             </Typography>
             <Box>
               <a
                 target="_blank"
-                href="https://roma-tourism.web.app/"
+                href="https://travel-website-assaingment-11.web.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -498,7 +435,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/Tour-Planners-client"
+                href="https://github.com/Shohag219/hotel-website"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -512,7 +449,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/Tour-Planners-server"
+                href="https://github.com/Shohag219/hotel-website-server"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -529,7 +466,10 @@ const MyProjects = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/QMh2KVs/project6.png" alt="" />
+            <img
+              src="https://i.ibb.co/BnC8m80/bike-sell-top.png[/img][/url]"
+              alt=""
+            />
             <Box sx={{ pt: 3 }}>
               <Button
                 size="small"
@@ -581,12 +521,12 @@ const MyProjects = () => {
               </Button>
             </Box>
             <Typography variant="h5" sx={{ m: 2 }}>
-              Bike Buzz (e-commerce Website)
+              Dream Bike
             </Typography>
             <Box>
               <a
                 target="_blank"
-                href="https://bike-buzz.web.app/"
+                href="https://bikesell-new.web.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -600,7 +540,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/Bike-Buzz-Client"
+                href="https://github.com/Shohag219/bike-sell-client"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
@@ -614,211 +554,7 @@ const MyProjects = () => {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/Saddaul-Siam/Bike-Buzz-Server"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="secondary"
-                >
-                  Server Site Code
-                </Button>
-              </a>
-            </Box>
-          </Card>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/LvD14fj/projects10.png" alt="" />
-            <Box sx={{ pt: 3 }}>
-              <Button
-                size="small"
-                sx={{ mx: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="error"
-              >
-                React
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="info"
-              >
-                React Router
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="success"
-              >
-                MaterialUI
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="warning"
-              >
-                Firebase
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="secondary"
-              >
-                Node
-              </Button>
-              <Button
-                size="small"
-                sx={{ m: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="primary"
-              >
-                MongoDB
-              </Button>
-            </Box>
-            <Typography variant="h5" sx={{ m: 2 }}>
-              Doctors Portal
-            </Typography>
-            <Box>
-              <a
-                target="_blank"
-                href="https://doctors-portal-24.web.app/"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ ml: 2, borderRadius: "52px" }}
-                  variant="contained"
-                  color="warning"
-                >
-                  Live Site
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/Doctor-protal-client"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="primary"
-                >
-                  Client Site Code
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/Doctor-protal-server"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="secondary"
-                >
-                  Server Site Code
-                </Button>
-              </a>
-            </Box>
-          </Card>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card style={{ height: "100%", padding: 20, borderRadius: "20px" }}>
-            <img src="https://i.ibb.co/XLHCYMD/project11.png" alt="" />
-            <Box sx={{ pt: 3 }}>
-              <Button
-                size="small"
-                sx={{ ml: 2, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="error"
-              >
-                React
-              </Button>
-              <Button
-                size="small"
-                sx={{ mx: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="info"
-              >
-                React Router
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="success"
-              >
-                MaterialUI
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="warning"
-              >
-                Firebase
-              </Button>
-              <Button
-                size="small"
-                sx={{ mr: 1, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="secondary"
-              >
-                Node
-              </Button>
-              <Button
-                size="small"
-                sx={{ m: 2, borderRadius: "52px", cursor: "default" }}
-                variant="outlined"
-                color="primary"
-              >
-                MongoDB
-              </Button>
-            </Box>
-            <Typography variant="h5" sx={{ m: 2 }}>
-              Jerins Parlour
-            </Typography>
-            <Box>
-              <a
-                target="_blank"
-                href="https://jerins-parlours.web.app/"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ ml: 2, borderRadius: "52px" }}
-                  variant="contained"
-                  color="warning"
-                >
-                  Live Site
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/Jerins-parlour-client"
-                rel="noReferrer"
-                style={{ textDecoration: "none" }}
-              >
-                <Button
-                  sx={{ m: 1, borderRadius: "52px" }}
-                  variant="contained"
-                  color="primary"
-                >
-                  Client Site Code
-                </Button>
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/Saddaul-Siam/Jerins-parlour-server"
+                href="https://github.com/Shohag219/bike-sell-server"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >

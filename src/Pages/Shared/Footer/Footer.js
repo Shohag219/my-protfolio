@@ -15,7 +15,7 @@ const Footer = () => {
       <Container sx={{ py: 10 }}>
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Typography variant="body" sx={{ color: "#fff" }}>
-            ALL COPYRIGHTS SADDAUL SIAM 2021
+            Mahmudul Hasan Shohag All Rights Reserved
           </Typography>
         </Box>
       </Container>
