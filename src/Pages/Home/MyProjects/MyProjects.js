@@ -76,7 +76,7 @@ const MyProjects = () => {
             <Box>
               <a
                 target="_blank"
-                href="https://i.ibb.co/1LYprXZ/best-berbar-bottom.png"
+                href="https://berbar-shop.netlify.app/"
                 rel="noReferrer"
                 style={{ textDecoration: "none" }}
               >
